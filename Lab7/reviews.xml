@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title> Restaurant Reviews </title>
-		<link> rss_link.html </link>
+		<link> http://nlaitchison.github.com/wdf/Lab7/rss_link.html </link>
 		<description> Restaurant reviews for Lab 7 RSS assignment.</description>
 		<item>
 			<title> Tijuana Flats </title>
@@ -13,7 +13,6 @@
 			<title> Chick-fil-a </title>
 			<link> http://www.chick-fil-a.com/ </link>
 			<description> Chick-fil-a is popular for their chicken sandwiches. They don't sell any beef. They basically have the best fast food chicken.</description>
-		</item>
 		<item>
 			<title> Sonic </title>
 			<link> http://www.sonicdrivein.com/ </link>
