@@ -34,47 +34,73 @@
 		<h1>HTML5 Form - WFD Lab 7 </h1>
 		<p> This is a sample form.</p>
 		<h2> Form: </h2>
-		<form action="/"> 
+		<form action="/" > <!-- start form -->
+			
 			<fieldset>
 				<label for="email"> Email </label>
-				<input type="email" name="email" id="email"/>
+				<input type="email" name="email" id="email" autofocus="autofocus" placeholder="email@gmail.com"/>
 			</fieldset>	
 			
 			<fieldset>
-				<label> Gender: </label>
-					<label><input type="radio" name="gender" value=" " />Male</label>
-					<label><input type="radio" name="gender" value=" " />Female</label>
+				<label for="url"> URL *</label>
+				<input type="url" name="url" id="url" required="required"/>
 			</fieldset>
 			
 			<fieldset>
-				<label for="age"> Age </label>
-					<select id="age">
-				 		<option> -- </option>
-				 		<option> 16 </option>
-				 		<option> 17 </option>
-				 		<option> 18 </option>
-				 		<option> 19 </option>
-				 		<option> 20 </option>
-					</select>
+				<label for="phonenumber"> Phone Number </label>
+				<input type="tel" name="phonenumber" id="phonenumber" />
 			</fieldset>
 			
 			<fieldset>
-				<label> Favorite Music Genres: </label>
-				 		<label><input type="checkbox" name="genre" value=" " />Pop Punk</label>
-						<label><input type="checkbox" name="genre" value=" " />Post-Hardcore</label>
-						<label><input type="checkbox" name="genre" value=" " />Hardcore</label>
-						<label><input type="checkbox" name="genre" value=" " />Acoustic</label>
-						<label><input type="checkbox" name="genre" value=" " />Rock</label>
+				<label for="search"> Enter Search </label>
+				<input type="search" name="search" id="search" />
 			</fieldset>
 			
 			<fieldset>
-				<label for="bands" > Favorite Bands: </label>
-				 		<textarea id="bands"> </textarea>
-			</fieldset>	
+				<label for="color"> Pick a Color </label>
+				<input type="color" name="color" id="color" />
+			</fieldset>
 			
-				<fieldset class="submit">
-					<input type="submit" value="Submit Form" />
-				</fieldset>
-		</form>
+			<fieldset>
+				<label for="slider"> Choose a Range </label>
+				<input type="range" name="slider" id="slider" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="number"> Choose a Number </label>
+				<input type="number" name="number" id="number" min="10" max="20" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="date_picker"> Pick a Date </label>
+				<input type="date" name="date_picker" id="date_picker" />
+			</fieldset>
+			
+			<fieldset>
+				<label for="time_picker"> Pick a Time </label>
+				<input type="time" name="time_picker" id="time_picker" />
+			</fieldset>
+			
+			<fieldset>
+				<label> Type Cat </label>
+					<input type="text" list="catdata"/>
+					<datalist id="catdata">
+						<option label="Cats" value="Cat"></option>
+						<option label="Kitten" value="Cat"></option>
+						<option label="Kitten" value="Cat"></option>
+						<option label="Kitty" value="Cat"></option>
+					</datalist>
+			</fieldset>
+			
+			<fieldset>
+				<progress value="40" max="100"> 40% </progress>
+			</fieldset>
+			
+			<fieldset>
+				<input type="submit" value="Submit" />
+			</fieldset>
+			
+		</form> <!-- end form -->
+		
 	</body>
 	</html>
