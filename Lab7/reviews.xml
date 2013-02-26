@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title> Restaurant Reviews </title>
+		<link> rss_link.html </link>
+		<description> Restaurant reviews for Lab 7 RSS assignment.</description>
+		<item>
+			<title> Tijuana Flats </title>
+			<link> http://www.tijuanaflats.com/ </link>
+			<description> Tijuana Flats is Tex-Mex restaurant popular for it's hot suace bar. On Tuesday they have 2 tacos, chips and a drink for $5.00.</description>
+		</item>
+		<item>
+			<title> Chick-fil-a </title>
+			<link> http://www.chick-fil-a.com/ </link>
+			<description> Chick-fil-a is popular for their chicken sandwiches. They don't sell any beef. They basically have the best fast food chicken.</description>
+		</item>
+		<item>
+			<title> Sonic </title>
+			<link> http://www.sonicdrivein.com/ </link>
+			<description> Sonic is mainly known for their drink options. You can basically have any drink you want. The Reese's and banana milkshake is awesome. </description>
+		</item>
+		<item>
+			<title> Steak n Shake </title>
+			<link> http://www.steaknshake.com/ </link>
+			<description> Steak n Shake has pretty great burgers. Their food is extremely greasy and unhealthy, but their open all night, so it's awesome for late night meals.  </description>
+		</item>
+	</channel>
+</rss>
