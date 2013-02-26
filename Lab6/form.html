@@ -6,7 +6,7 @@
 		<style type="text/css">
 			
 			form {
-				width: 500px;
+				width: 480px;
 				border: 1px solid;
 			}
 			
@@ -22,6 +22,10 @@
 			border: none;
 			}
 			
+			textarea {
+				min-width: 455px;
+			}
+			
 		</style>
 	
 	</head>
@@ -30,20 +34,47 @@
 		<h1>Form - WFD Lab 6 </h1>
 		<p> This is a sample form.</p>
 		<h2> Form: </h2>
-		<form> 
+		<form action="/"> 
 			<fieldset>
 				<label for="name"> First Name </label>
-				<input type="text" name="name" value=" " />
+				<input type="text" name="name" id="name"/>
 			</fieldset>	
+			
 			<fieldset>
-				<label for="gender"> Gender </label>
-					<select id="gender">
-				 		<option> Male </option>
-				 		<option> Female </option>
-					</select>
-				</label>
+				<label> Gender: </label>
+					<label><input type="radio" name="gender" value=" " />Male</label>
+					<label><input type="radio" name="gender" value=" " />Female</label>
 			</fieldset>
 			
+			<fieldset>
+				<label for="age"> Age </label>
+					<select id="age">
+				 		<option> -- </option>
+				 		<option> 16 </option>
+				 		<option> 17 </option>
+				 		<option> 18 </option>
+				 		<option> 19 </option>
+				 		<option> 20 </option>
+					</select>
+			</fieldset>
+			
+			<fieldset>
+				<label> Favorite Music Genres: </label>
+				 		<label><input type="checkbox" name="genre" value=" " />Pop Punk</label>
+						<label><input type="checkbox" name="genre" value=" " />Post-Hardcore</label>
+						<label><input type="checkbox" name="genre" value=" " />Hardcore</label>
+						<label><input type="checkbox" name="genre" value=" " />Acoustic</label>
+						<label><input type="checkbox" name="genre" value=" " />Rock</label>
+			</fieldset>
+			
+			<fieldset>
+				<label for="bands" > Favorite Bands: </label>
+				 		<textarea id="bands"> </textarea>
+			</fieldset>	
+			
+				<fieldset class="submit">
+					<input type="submit" value="Submit Form" />
+				</fieldset>
 		</form>
 	</body>
 	</html>
