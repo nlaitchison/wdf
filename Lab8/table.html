@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title> Table - WDF Lab 6</title>
+		
+		<style type="text/css">
+		tr {
+ 			text-align: center; 
+		}
+		
+		td {
+			padding: 5px 15px 5px 5px;
+		}
+		
+		th {
+/* 			border-bottom: 1px solid; */
+			text-decoration: underline;
+		}
+		
+		tfoot td {
+			font-weight: bold; 
+		}
+		
+		.border_top {
+			border-top: 1px solid;
+		}
+	</style>
+	
+	</head>
+	
+	<body>
+		<h1>Table - WFD Lab 6 </h1>
+		<p> This is a random table of concerts I'm planning to go to in the next few months. <br> <img src="http://placekitten.com/g/200/300" alt="Adorable kitten sitting by a wall." /></p>
+		<h2> Concert Dates: </h2>
+		<table> 
+			<thead >
+				<tr> <!-- Row 1 -->
+					<th scope="col"> Date </th>
+					<th scope="col"> Band Name </th>
+					<th scope="col"> Venue </th>
+					<th scope="col"> Time </th>
+					<th scope="col"> Cost </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr> <!-- Row 2 -->
+					<td> March 13th </td>
+					<td> Enter Shikari </td>
+					<td> The Social </td>
+					<td> 6:00 PM </td>
+					<td> $15.00 </td>
+				</tr>
+				<tr> <!-- Row 3 -->
+					<td> May 3rd </td>
+					<td> A Day To Remember</td>
+					<td> Hard Rock Live </td>
+					<td> 7:30 PM </td>
+					<td> $37.50 </td>
+				</tr>
+				<tr> <!-- Row 4 -->
+					<td> July 28th </td>
+					<td> Warped Tour </td>
+					<td> Central Florida Fairgrounds </td>
+					<td> 11:00 AM </td>
+					<td> $33.50 </td>
+				</tr>
+			<tbody>
+			<tfoot>
+				<tr> <!-- Row 5 -->
+					<td>  </td>
+					<td>  </td>
+					<td>  </td>
+					<td>  </td>
+					<td class="border_top"> $86.00</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+	</html>

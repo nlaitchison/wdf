@@ -2,7 +2,7 @@
 <rss version="2.0">
 	<channel>
 		<title> Restaurant Reviews </title>
-		<link> rss_link.html </link>
+		<link> http://nlaitchison.github.com/wdf/Lab7/rss_link.html </link>
 		<description> Restaurant reviews for Lab 7 RSS assignment.</description>
 		<item>
 			<title> Tijuana Flats </title>
